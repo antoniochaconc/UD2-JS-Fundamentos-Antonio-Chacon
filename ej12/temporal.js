@@ -15,3 +15,5 @@ document.write(`<h3>Usando la nueva API Temporal</h3>`);
 document.write(`<p>La fecha actual es ${hoyTemporal.toString()}</p>`);
 document.write(`<p>La fecha del evento: ${fechaEventoTemporal.toString()}</p>`);
 document.write(`<p>Días que faltan para el evento: ${diferencia.days} días</p>`);
+
+//00
