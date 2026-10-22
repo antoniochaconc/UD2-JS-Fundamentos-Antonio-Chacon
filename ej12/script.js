@@ -31,4 +31,3 @@ copiaSuperficial[0][0] = "MODIFICADO";
 
 const copiaIndependiente = playlist.map(fila => [...fila]);
 copiaIndependiente[0][0] = "MODIFICADO DE NUEVO";
-//00
