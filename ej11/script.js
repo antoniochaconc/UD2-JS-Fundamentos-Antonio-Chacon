@@ -11,7 +11,7 @@ playlist.push(["Thriller", "Michael Jackson", 357, "Pop"]);
 playlist.push(["Billie Jean", "Michael Jackson", 294, "Pop"]);
 
 let cancionEliminadaPop = playlist.pop();
-playlist[0].push(1975); // Añadir quinto dato a la primera canción
+playlist[0].push(1975);
 
 document.write(`<p>Canción eliminada (pop): ${cancionEliminadaPop[0]}</p>`);
 document.write(`<p>Playlist Parte 1: ${JSON.stringify(playlist)}</p>`);
